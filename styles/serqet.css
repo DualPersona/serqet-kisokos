@@ -1,0 +1,48 @@
+main{
+    margin: 0 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+body{
+    background-color: #182834;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.carousel-item {
+    height: 600px;
+    width: 100%;
+  }
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.titlebundle {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.charname {
+    letter-spacing: 15px;
+}
+.chartitle{
+    letter-spacing: 2px;
+}
+
+hr{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+p{
+    color: azure;
+}
