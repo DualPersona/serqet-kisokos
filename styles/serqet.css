@@ -51,3 +51,32 @@ h2{
     color: white;
     letter-spacing: 7px;
 }
+h3, h4, h5{
+    color: white;
+}
+
+.abilities .row{
+    margin: 10px
+}
+
+.abilities img{
+    border-radius: 5px;
+}
+
+.ability-buttons{
+    border-width: 3px;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+.video-player{
+    border-radius: 7px;
+}
+
+.container h2{
+    margin-bottom: 40px;
+}
+
+.smitegame img{
+    margin-bottom: 20px;
+}
