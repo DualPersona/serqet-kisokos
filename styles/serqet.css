@@ -1,5 +1,5 @@
 main{
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 
 img{
@@ -40,9 +40,14 @@ hr{
     background-color: white;
     border-radius: 5px;
     width: 50%;
-    margin: 10px auto;
+    margin: 40px auto;
 }
 
 p{
     color: azure;
+}
+
+h2{
+    color: white;
+    letter-spacing: 7px;
 }
