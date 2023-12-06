@@ -20,10 +20,10 @@ body{
     border-radius: 20px;
 }
 .titlebundle {
-    position: absolute;
-    top: 70%;
+    position: relative;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
@@ -37,7 +37,6 @@ body{
 
 hr{
     border: 5px solid white;
-    background-color: white;
     border-radius: 5px;
     width: 50%;
     margin: 40px auto;
@@ -80,3 +79,31 @@ h3, h4, h5{
 .smitegame img{
     margin-bottom: 20px;
 }
+
+.abilities h5{
+    color: #ada176;;
+}
+
+#first-separator{
+    margin-top: 0;
+}
+
+#last-separator{
+    width: 75%;
+}
+
+.hr-mini{
+    width: 10%
+}
+
+@media(min-width:767px) {
+    .hr-mini, .conquest-small, .carousel-slide-small {
+      display:none;
+    }
+  }
+
+  @media(max-width:767px) {
+    .conquest-big, .carousel-slide-big {
+      display:none;
+    }
+  }
